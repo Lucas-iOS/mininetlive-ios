@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HyphenateSDK (3.1.2)
+  - MJRefresh (3.1.0)
+  - Pingpp/Alipay (2.2.2):
+    - Pingpp/Core
+  - Pingpp/Core (2.2.2):
+    - Pingpp/Network
+  - Pingpp/Network (2.2.2)
+  - Pingpp/Wx (2.2.2):
+    - Pingpp/Core
+  - SVProgressHUD (2.0.3)
+  - YYKit (1.0.5):
+    - YYKit/no-arc (= 1.0.5)
+  - YYKit/no-arc (1.0.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - HyphenateSDK
+  - MJRefresh
+  - Pingpp/Alipay
+  - Pingpp/Wx
+  - SVProgressHUD
+  - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HyphenateSDK: 456df796ffa73d8cd495eb33680e12273120f2a6
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  Pingpp: d1002b416ac23c4cb6ed50cac79af3edcbaa8ba7
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  YYKit: f2654fe525de2283648db957bddb37ddd8e06549
+
+PODFILE CHECKSUM: dd360f089a74cc716a8eca62bb4819fe61ec2423
+
+COCOAPODS: 1.0.0

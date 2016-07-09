@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FileOwner">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="k4T-Ba-jGA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TabBarView" id="iN0-l3-epB" customClass="WWTabBarView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yys-Vg-qIu">
+                    <rect key="frame" x="470" y="0.0" width="130" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="wkq-Y4-Iny"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="打赏红包" backgroundImage="btn_reward"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrc-8B-Hgr">
+                    <rect key="frame" x="33" y="32" width="20" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="CaH-Yw-rtp"/>
+                        <constraint firstAttribute="width" constant="20" id="blT-r0-Xnx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.5725490196078431" green="0.5725490196078431" blue="0.5725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7P-xE-bAG">
+                    <rect key="frame" x="0.0" y="7" width="85" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="85" id="4PE-3L-fZ9"/>
+                        <constraint firstAttribute="height" constant="35" id="Vqf-3s-fwg"/>
+                    </constraints>
+                    <state key="normal" image="ic_share"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="yys-Vg-qIu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8iH-oD-NxT"/>
+                <constraint firstItem="hrc-8B-Hgr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="33" id="AzO-ho-Bay"/>
+                <constraint firstAttribute="trailing" secondItem="yys-Vg-qIu" secondAttribute="trailing" id="KcY-gT-OIz"/>
+                <constraint firstItem="u7P-xE-bAG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="RIw-Oz-b46"/>
+                <constraint firstAttribute="bottom" secondItem="yys-Vg-qIu" secondAttribute="bottom" id="RNY-dM-h7S"/>
+                <constraint firstAttribute="bottom" secondItem="hrc-8B-Hgr" secondAttribute="bottom" constant="5" id="RTH-6L-wLx"/>
+                <constraint firstItem="u7P-xE-bAG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZHi-O3-ZJ3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnShare" destination="u7P-xE-bAG" id="JJP-Yc-WeQ"/>
+                <outlet property="rightButton" destination="yys-Vg-qIu" id="efj-3k-kak"/>
+            </connections>
+            <point key="canvasLocation" x="309" y="433.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_reward" width="49" height="49"/>
+        <image name="ic_share" width="24" height="24"/>
+    </resources>
+</document>
